@@ -1,0 +1,88 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+/* .noto-sans-kr-<uniquifier> {
+    font-family: "Noto Sans KR", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+   */
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./assets/kotiti-intro-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: contain;
+    overflow: hidden;
+}
+.wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 4.16vw;
+    margin: 10.9vw 10.416vw;
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+    gap: 1.56vw;
+    width: 34.89vw;
+}
+div.sec_head_wrap{
+    width: 100%;
+    border-bottom: 1px solid #000;
+    padding: 0 0 1.19vw 0;
+}
+p.sec_head{
+    font-family: "Pretendard Variable";
+    font-weight: 700;
+    font-size: 1.04vw;
+    line-height: 1.19vw;
+    color: #000;
+}
+span.sec_title{
+    font-family: "Noto Sans KR", serif;
+    font-size: 0.8333vw;
+    font-weight: 400;
+    line-height: 1.25vw;
+    text-align: left;
+    font-family: "Noto Sans KR", serif;
+    white-space: nowrap;
+}
+
+.img_section{
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 1fr auto;
+    gap: 2.083vw;
+}
+.img_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* gap: 0.52vw; */
+}
+.img_wrap span{
+    padding-top: 0.52vw;
+}
+.img_wrap img.width_img{
+    width: 26.04vw;
+    height: 14.583vw;
+    box-shadow: 2px 2px 20px 0px #00000033;
+
+}
+.img_wrap img.height_img{
+    width: 6.77vw;
+    height: 14.583vw;
+    box-shadow: 2px 2px 20px 0px #00000033;
+
+}
