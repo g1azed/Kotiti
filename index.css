@@ -12,11 +12,11 @@
 
 body{
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
 }
 section{
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     background-image: url("./assets/kotiti-intro-bg.png");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
