@@ -1,0 +1,67 @@
+body { max-width: 100vw; overflow-x: hidden;}
+:root { --color-main-blue: #025BA8; }
+.h1 h1{
+    font-family: Pretendard;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1%;
+    /* font-size: 40px;
+    line-height: 48px; */
+}
+.text-16{
+    font-family: Pretendard;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -1%;
+}
+.text-18{
+    font-family: Pretendard;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -1%;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+/* Header start  */
+header { width: 100%; position: absolute; top: 0;}
+.header-top { background-color: var(--color-main-blue); padding: 0.677vw 6.25vw; }
+.header-top ul { display: flex; justify-content: flex-end; align-items: center; flex-direction: row; gap: 1.25vw; }
+.header-top ul li a { color: #fff; font-family: Pretendard; font-weight: 700; font-size: 0.729vw; line-height: 1.14vw; letter-spacing: 0%; }
+.header-bottom { display: flex; justify-content: space-between; align-items: center; padding: 2.291vw 6.25vw; }
+.header-bottom .logo { width: 12.5vw; }
+.header-bottom .logo img { width: 100%; object-fit: contain; }
+.header-bottom .gnb ul { display: flex; justify-content: center; align-items: center; gap: 3.125vw; }
+.header-bottom .gnb ul a { color: #fff; font-family: Pretendard; font-weight: 700; font-size: 0.93vw; line-height: 1.35vw; letter-spacing: 0%; }
+.header-bottom .sub-gnb ul { display: flex; justify-content: flex-end; align-items: center; gap: 1.25vw; }
+/* Header end  */
+/* main */
+.sub-visual{
+    margin-top: 2.5vw;
+    background: url('../../common/assets/sub-visual-bg.png') no-repeat center/cover;
+}
+
+
+
+
+/* main end */
+/* footer start */
+footer { margin-top: 7.29vw; border-top: 1px solid #ccc; }
+footer .footer-wrap { display: flex; flex-direction: row; justify-content: space-between; padding: 1.97vw 6.25vw 3.593vw 6.25vw; }
+footer .flex-left { display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 1.77vw; }
+footer .flex-left select { border-radius: 10px; padding: 0.468vw 0.8333vw; }
+footer .flex-left select option { font-family: Pretendard; font-weight: 500; font-size: 0.729vw; line-height: 1.25vw; letter-spacing: 0%; }
+footer .flex-left ul { display: flex; flex-direction: row; justify-content: flex-start; align-items: flex-start; }
+footer .flex-left ul:nth-child(1) { gap: 1.25vw; }
+footer .flex-left ul:nth-child(1) li { font-family: Pretendard; font-weight: 700; font-size: 0.8333vw; line-height: 1.25vw; letter-spacing: 0%; }
+footer .flex-left ul:nth-child(2) li { font-family: Pretendard; font-weight: 500; font-size: 0.729vw; line-height: 1.145vw; letter-spacing: 0%; }
+footer .flex-left ul:nth-child(2) { gap: 16px; }
+footer .flex-left ul:nth-child(2) li:not(:last-child)::after { content: " "; display: inline-block; border-right: 0.5px solid #ccc; width: 0.5px; height: 0.833vw; position: relative; top: 4px; left: 5px; }
+footer .flex-right { display: flex; flex-direction: column; justify-content: space-between; align-items: flex-end; }
+footer .flex-right button { background: #121212; padding: 0.468vw 0.833vw; border-radius: 10px; color: #fff; font-family: Pretendard; font-weight: 500; font-size: 0.729vw; line-height: 1.25vw; letter-spacing: 0%; cursor: pointer; }
+footer .flex-right button em { margin-top: 4px; }
+footer .flex-right span { font-family: Pretendard; font-weight: 500; font-size: 0.625; line-height: 1.041vw; letter-spacing: 0%; color: #999; }
+/* footer end */
